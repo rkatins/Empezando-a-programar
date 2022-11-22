@@ -98,7 +98,7 @@ Por ejemplo al leerlo de linea en linea va a llegar un momento en el que llegue 
 	//LECTURA DE TODAS LAS LINEAS
 
 	while ((fscanf(fichero, "%s", linea))!=EOF){	// fscanf ->	Hay que tener en cuenta que cada vez que encuentre un
-													// 				espacio en blanco generará un salto de linea al mostrarlo
+							//		espacio en blanco generará un salto de linea al mostrarlo
 	
 		printf("%s\n",linea);
 	
@@ -122,8 +122,8 @@ Ha diferencia de la lectura (linea a linea), no hace falta indicarle el fin del 
 	printf("Escribe algo:");
 	gets(linea);
 
-	fprintf(fichero,"%s",linea); 	// fprintf -> escribe en relacion a lo indicado 
-									// en el array[80] correspondiente a la variable char linea
+	fprintf(fichero,"%s",linea); 	// fprintf ->	escribe en relacion a lo indicado 
+					// 		en el array[80] correspondiente a la variable char linea
 	fclose(fichero);
 ```
 
