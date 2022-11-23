@@ -40,7 +40,6 @@ condicion -> Hace referencia a aquello que se le pregunta, se indica con caracte
 <  -> Menor que
 >  -> Mayor que
 ```
-
 En resumen podriamos decir que IF lo podemo usar para compara cosas.
 
 ---
@@ -72,10 +71,7 @@ condicion y condicion2 -> Hace referencia a aquello que se le pregunta, se indic
 
 En este ejemplo de un IF-ELSE IF, vemos tres posibles caminos (se pueden poner tantos ELSE IF como un quiera y casos diferentes requira el programa).  Imaginemos que en este caso le hemos indicado una nota, si esta nota cumple la primera condicion, la realiza y no continua pasando por el reto de condiciones/comprovantes, en el caso de no cumplir la condicion pasa al siguiente el cual le indica una segunda condicion, en caso de cumplirla la realiza, en caso de que no la cumpla pasa a la siguiente y asi sucesivamente.
 
-
-
-
-
-
-
-
+__IMPORTANTE:__ En el caso que queramos comparar una cadena de caracteres o String, deberemos hacer uso de la funcion strcmp() la cual devolvera un valor.
++ < 0 -> Las cadena de caracteres son diferentes, la primera va antes que la segunda.
++ = 0 -> Las cadena de caracteres son iguales.
++ < 0 -> Las cadena de caracteres son diferentes, la segunda va antes que la primera.
