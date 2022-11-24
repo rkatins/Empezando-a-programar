@@ -1,5 +1,5 @@
 ## Bucles
-### FOR
+## FOR
 
 Sintaxis (Como se escribe):
 ```
@@ -14,7 +14,7 @@ En resumen podriamos decir que podemos usar este bucle cuando conocemos una long
 
 ---
 
-### WHILE
+## WHILE
 
 Sintaxis (Como se escribe):
 ```
@@ -29,7 +29,7 @@ PD: para evitar hacer un bucle infinito, deberemos SIEMPRE incrementar la varibl
 
 ---
 
-### DO WHILE
+## DO WHILE
 
 Sintaxis (Como se escribe):
 ```
@@ -45,7 +45,7 @@ En resumen podriamos decir que podemos usar este bucle cuando no conocemos una l
 
 ---
 
-### IF 
+## IF 
 
 (Se ppuede catalogar mejor como compardor o condicional)
 
