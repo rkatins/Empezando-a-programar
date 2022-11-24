@@ -1,6 +1,4 @@
 ## Array
----
----
 
 Podemos definir un array como una variable que puede guardar mas de un valor, es una lista que tiene un maximo definido de cosas que puede contener.
 
