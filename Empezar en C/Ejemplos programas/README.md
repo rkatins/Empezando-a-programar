@@ -1,7 +1,9 @@
-## EJEMPLOS Y EJERCICIOS
+## HOJA
 ---
 ---
 
-Diversos ejercicios/ejemplos para practicar y ver como poder hacerlo con lo que hemos visto.
+Agrupacion de diversos ejercicios
+
+1-15 (Bucle FOR)
 
 ---
