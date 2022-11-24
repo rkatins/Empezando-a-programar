@@ -1,7 +1,8 @@
 ## Bucles
 ---
----
+
 ### FOR
+
 Sintaxis (Como se escribe):
 ```
 		  int i; // Declarar variable i
@@ -16,6 +17,7 @@ En resumen podriamos decir que podemos usar este bucle cuando conocemos una long
 ---
 
 ### WHILE
+
 Sintaxis (Como se escribe):
 ```
 		while(condicion){
@@ -30,6 +32,7 @@ PD: para evitar hacer un bucle infinito, deberemos SIEMPRE incrementar la varibl
 ---
 
 ### DO WHILE
+
 Sintaxis (Como se escribe):
 ```
 		do{
@@ -45,6 +48,7 @@ En resumen podriamos decir que podemos usar este bucle cuando no conocemos una l
 ---
 
 ### IF 
+
 (Se ppuede catalogar mejor como compardor o condicional)
 
 Sintaxis (Como se escribe):
