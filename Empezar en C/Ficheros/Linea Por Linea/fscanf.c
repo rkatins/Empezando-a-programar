@@ -2,8 +2,8 @@
 
 /*
   - Autor:         	rkatins
-  - Correo:			katinsruben.98@gmial.com
-  - Descripcion:
+  - Correo:		katinsruben.98@gmial.com
+  - Descripcion:	Lee un fichero y muestra la linea que lee
 */
 
 main(){
@@ -19,10 +19,9 @@ main(){
 	printf("%s\n",linea);
 	//LECTURA DE TODAS LAS LINEAS
 	while ((fscanf(fichero, "%s", linea))!=EOF){	// fscanf ->	Hay que tener en cuenta que cada vez que encuentre un
-													// 				espacio en blanco generar· un salto de linea al mostrarlo
+							// 		espacio en blanco generar√° un salto de linea al mostrarlo
 	
 		printf("%s\n",linea);
-	
 	}
 	fclose(fichero);
 }
