@@ -14,9 +14,9 @@ main(){
 	
 	fichero = fopen("BancoMain.txt", "r");
 	//LECTURA DE UNA LINEA
-	fscanf(fichero, "%s", linea);
+	//fscanf(fichero, "%s", linea);
 	
-	printf("%s\n",linea);
+	//printf("%s\n",linea);
 	//LECTURA DE TODAS LAS LINEAS
 	while ((fscanf(fichero, "%s", linea))!=EOF){	// fscanf ->	Hay que tener en cuenta que cada vez que encuentre un
 							// 		espacio en blanco generará un salto de linea al mostrarlo
