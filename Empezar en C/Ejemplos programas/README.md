@@ -11,3 +11,7 @@ Agrupacion de diversos ejercicios
 1-15 (Bucle FOR)
 
 ---
+
+## PracticaFinalTrimestre
+
+Practica final del 1er trimestre
