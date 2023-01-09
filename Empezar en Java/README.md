@@ -27,14 +27,14 @@ PD: Si se va a crear un objeto de una clase *__SIEMPRE__* se ha de definir el me
 ### Estructura
 
 ```
-	package nombrePaquete;	// Nombre del paquete en el que la clase (que se esta escribiendo)
-							// esta alojada, es como poner la ruta del archivo
+	package nombrePaquete;		// Nombre del paquete en el que la clase (que se esta escribiendo)
+					// esta alojada, es como poner la ruta del archivo
 
 
-	import ruta.del.Paquete;		// OPCIONAL -> Indica los import de los paquetes que se van a usar en la clase
+	import ruta.del.Paquete;	// OPCIONAL -> Indica los import de los paquetes que se van a usar en la clase
 
 	public class nombreClase {
-		static nombreVariable;		// OPCIONAL -> Declara variables static/estaticas
+		static nombreVariable;	// OPCIONAL -> Declara variables static/estaticas
 		
 		public static void main(String[] args) {
 			instrucciones/código
