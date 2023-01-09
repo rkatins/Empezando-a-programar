@@ -4,6 +4,8 @@
 ---
 __Todos los ficheros que empiezan por m son metodos usados, el archivo que se encarga de la ejecucion de todo el codigo es PracticaFinalTrimestre.c__
 
+### ENUNCIADO
+---
 1. Leer al fichero y cargar los datos del fichero en el array de estructuras
 El fichero debe contener la informacion que veremos a delante
 2. Mostrar menu de opciones
