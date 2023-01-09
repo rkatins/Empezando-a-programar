@@ -1,5 +1,9 @@
 ## PRACTICA FINAL DE TRIMESTRE
+
+### EXTRA
 ---
+__Todos los ficheros que empiezan por m son metodos usados, el archivo que se encarga de la ejecucion de todo el codigo es PracticaFinalTrimestre.c__
+
 1. Leer al fichero y cargar los datos del fichero en el array de estructuras
 El fichero debe contener la informacion que veremos a delante
 2. Mostrar menu de opciones
@@ -32,7 +36,3 @@ multimedia
 1. .c
 2. .txt
 3. .jpg x 3
-
-### EXTRA
----
-__Todos los ficheros que empiezan por m son metodos usados, el archivo que se encarga de la ejecucion de todo el codigo es PracticaFinalTrimestre.c__
