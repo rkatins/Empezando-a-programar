@@ -1,5 +1,5 @@
 ## Programacion en Java (POO)
----
+
 ### ¿Qué es POO?
 
 POO -> Programacion Orientada a Objetos
