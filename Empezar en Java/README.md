@@ -4,7 +4,7 @@
 
 POO -> Programacion Orientada a Objetos
 
-Los objetos son el simil de las estructuras/struct en C
+Los objetos son el simil de las estructuras/struct en C, son parecidos pero no iguales.
 
 ---
 ### Modificador de acceso + Estatic o Estatico
