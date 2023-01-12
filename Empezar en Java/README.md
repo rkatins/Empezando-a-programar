@@ -34,7 +34,7 @@ PD: Si se va a crear un objeto de una clase *__SIEMPRE__* se ha de definir el me
 	import ruta.del.Paquete;	// OPCIONAL -> Indica los import de los paquetes que se van a usar en la clase
 
 	public class nombreClase {
-		static nombreVariable;	// OPCIONAL -> Declara variables static/estaticas
+		static String nombreVariable;	// OPCIONAL -> Declara variables static/estaticas
 		
 		public static void main(String[] args) {
 			instrucciones/código
