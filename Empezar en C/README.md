@@ -1,4 +1,4 @@
-## Array
+## Programacion en C (Estructurada)
 
 Programacion estructurada -> Basicamente podriamos decir que se ejecuta de arriba a abajo, sin necesisdad de pararse a entrar en los datos de las variables.
 
