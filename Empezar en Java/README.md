@@ -1,4 +1,4 @@
-[Variables primitivas](./variables)
+[Variables primitivas](./Variables)
 
 ## Programacion en Java (POO)
 
