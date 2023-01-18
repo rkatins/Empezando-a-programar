@@ -7,6 +7,7 @@ Al igual que en muchos lenguajes de programación tenemos los siguientes tipos d
 + char -> caracter
 + byte -> un digito
 + long -> numero entero (mas largo)
++ short -> numero entero (mas corto)
 + boolean -> solo dos valores (true/false)
 + String -> cadena de caracteres
 
