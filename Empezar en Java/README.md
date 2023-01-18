@@ -1,3 +1,5 @@
+[Variables primitivas](./variables-primitivas)
+
 ## Programacion en Java (POO)
 
 ### ¿Qué es POO?
