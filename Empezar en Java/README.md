@@ -16,9 +16,8 @@ Los objetos siempre van ligados a una clase, la cual le proporciona los atributo
 PD: Si se va a crear un objeto de una clase *__SIEMPRE__* se ha de definir el metodo constructor de la clase de la que se va a crear un objeto.
 
 EXTRA
-PD: Por asi decir todas las variables derivan de una clase, por eso haciendo uso de una varible se puede acceder como si esta fuera un objeto, poniendo "." podemos acceder a metodos o a la informacion de estos.
-
-PD: Por asi decir todo lo que creemeos (Ej: como las variables), van a ser objetos, los cuales van a contener una información, muchas veces esta informacion puede ser consultada y/o modificada, para acceder a estas opciones de consultar y/o modificar siempre haremos uso del "."
++ PD: Por asi decir todas las variables derivan de una clase, por eso haciendo uso de una varible se puede acceder como si esta fuera un objeto, poniendo "." podemos acceder a metodos o a la informacion de estos.
++ PD: Por asi decir todo lo que creemeos (Ej: como las variables), van a ser objetos, los cuales van a contener una información, muchas veces esta informacion puede ser consultada y/o modificada, para acceder a estas opciones de consultar y/o modificar siempre haremos uso del "."
 ---
 ### Estructura
 
