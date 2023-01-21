@@ -1,13 +1,10 @@
-[Modificadores de acceso](../Variables/README.md#Modificadores-de-acceso)
-
 ## Crear un objeto
 
 ### ¿Qué es un objeto?
 Antes de crear un objeto debemos saber que es, podriamos decir que es una forma de almacenar informacion propia en un unico sitio.
 Los objetos van a depender de lo indicado en la clase (asi como atributos y/o métodos) que se usa ara crear el mismoo objeto.
 
-Pongamos como ejemplo que tenemos el objeto ```alumno1```.
-Al tener un objeto (en este caso el objeto alumno) podemos ver sus atributos (podremos ver los atributos y modificarlos sin necesidad de usar metodos extra por asi llamarlos (no se presentara esta dificultad si los atributos han sido declarados como public), estos metodos se conocen metodos accesores y/o mutadores otra forma metodos getters y setters)).
+Pongamos como ejemplo que tenemos el objeto ```alumno1```. Al tener un objeto (en este caso el objeto ```alumno1```) podemos ver sus atributos (podremos ver los atributos y modificarlos sin necesidad de usar metodos extra por asi llamarlos (no se presentara esta dificultad si los atributos han sido declarados como public), estos metodos se conocen metodos accesores y/o mutadores otra forma metodos getters y setters)).
 ```
 public class Alumno {
     public String nombre;
