@@ -9,7 +9,7 @@ POO -> Programacion Orientada a Objetos
 Los objetos son el simil de las estructuras/struct en C, son parecidos pero no iguales.
 
 ---
-### Objetos
+### [Objetos](./Objetos)
 
 Los objetos siempre van ligados a una clase, la cual le proporciona los atributos de los que está compuesto el objeto y los metodos que se hayan declarado en ella.
 
