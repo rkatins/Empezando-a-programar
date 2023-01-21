@@ -1,6 +1,6 @@
 [Modificadores de acceso](../Variables/README.md#Modificadores-de-acceso)
 
-## Creaar un objeto
+## Crear un objeto
 
 ### ¿Qué es un objeto?
 Antes de crear un objeto debemos saber que es, podriamos decir que es una forma de almacenar informacion propia en un unico sitio.
