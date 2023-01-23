@@ -24,6 +24,7 @@ public class Alumno {
         this.nombre = apellido;
         this.nia = nia;
     }
+}
 ```
 
 PD: se pueden hacer tantos metodos constructor como uno quiera
