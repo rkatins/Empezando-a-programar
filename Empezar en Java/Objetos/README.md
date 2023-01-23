@@ -35,6 +35,8 @@ PD: se pueden hacer tantos metodos constructor como uno quiera
 
 Sigamos con el ejemplo anterior, para crear un objeto de su clase tenemos 2 formas ahora mismo.
 
+Para crear un objeto es preferible crear (un nuevo objeto) en una clase ajena a a la que tiene el método constructor que hemos usado.
+
 ```
 // Metodo constructor por defecto
 Alumno alumno1 = new Alumno()
