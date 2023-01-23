@@ -33,6 +33,6 @@ public class Mascotas {
         raza = sc.nextLine();
         
         Animal nuevaMascota = new Animal(nombre, "23/01/2023", animal, raza, 0);
-        System.out.println(nuevaMascota.toString())
+        System.out.println(nuevaMascota.toString());
     }
 }
