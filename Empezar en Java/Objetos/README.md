@@ -39,11 +39,11 @@ Para crear un objeto es preferible crear (un nuevo objeto) en una clase ajena a 
 
 ```
 // Metodo constructor por defecto
-Alumno alumno1 = new Alumno()
+Alumno alumno1 = new Alumno();
 ```
 ```
 // Metodo constructor con parametros
-Alumno alumno1 = new Alumno("Ruben", "Katins", 503)
+Alumno alumno1 = new Alumno("Ruben", "Katins", 503);
 ```
 
 ---
