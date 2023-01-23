@@ -12,14 +12,14 @@ public class Alumno {
     private int nia;
 
     // Metodo constructor por defecto
-    public Cuenta() {
+    public Alumno() {
         nombre = "Sin nombre";
         apellido = "Sin apellido";
         nia = 0;
     }
 
     // Metodo constructor con parametros
-    public Cuenta(String nombre, String apellido, int nia) {
+    public Alumno(String nombre, String apellido, int nia) {
         this.nombre = nombre;
         this.nombre = apellido;
         this.nia = nia;
