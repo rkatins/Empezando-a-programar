@@ -28,3 +28,4 @@ Esto por ejemplo nos puede servir al hacer un bucle FOR para recorrer la longitu
 	  Sytem.out.printl(nombreArray[i])		
   }
 ```
+Si quieres seguir leyendo recomiendo que sigas el siguiente orden -> [Modificadores de acceso](./Modificadores-de-acceso) > [Static](./Static)
