@@ -25,6 +25,7 @@ Un procedimiento no devuelve nada, se indica como ```void```, el cual es indicad
 Ambos tipos de métodos tienen dos variables, que son iguales para ambos métodos: con parámetros y sin parámetros.
 
 + Con parámetros
+
 Pensemos en ello como una pieza de puzzle la cual requiere un requisito/s, si tu no le das ningun requisito/s o un requisito/s que coincida no va a funcionar.
 ```
     public String mSaludarFuncion(String saludo) {
