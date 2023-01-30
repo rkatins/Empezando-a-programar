@@ -19,8 +19,7 @@ public class Principal {
                 
         Televisor teleCocina = new Televisor(Televisor.Nombre.SAMSUNG, "Paradise", 50, "Alemania");
         
-//        System.out.println(teleSalon.toString());
-        System.out.println(teleSalon.getModelo()); 
+        System.out.println(teleSalon.toString()); 
         System.out.println("---- ++++ ----");
         System.out.println(teleCocina.toString());
     }
