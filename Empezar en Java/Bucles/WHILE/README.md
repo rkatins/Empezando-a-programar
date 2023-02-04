@@ -1,4 +1,6 @@
 ## WHILE
+Remarcar que todo lo que se hace con un WHILE se puede hacer con un DO-WHILE y viceversa
+
 El WHILE lo podemos usar para cosas que queramos que serpitan indefinidamente mientras coincida o mejor dicho que ejecute el codigo de su interior un numero indefinido de veces el cual no sabemos, si conocemos este numero de veces que queremos que se haga es recomendable usarr un FOR aunque tambien se puede hacer con un WHILE declarando e inicializando una varaiable que se encargue de sumar en uno el valor cada vez que se da una vuelta. Si lo leemos para comprenderlo mejorr seria, da vueltas mientras que la variable contador sea menor o igual a 10.
 
 ```
