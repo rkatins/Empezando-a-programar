@@ -46,7 +46,7 @@ En resumen podriamos decir que podemos usar este bucle cuando no conocemos una l
 
 ## IF 
 
-(Se ppuede catalogar mejor como compardor o condicional)
+(Se puede catalogar mejor como compardor o condicional)
 
 Sintaxis (Como se escribe):
 ```
