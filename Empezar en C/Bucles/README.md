@@ -39,7 +39,6 @@ Sintaxis (Como se escribe):
 
 En resumen podriamos decir que podemos usar este bucle cuando no conocemos una longitud (es decir va a dar un numero indefinido de vueltas de vueltas, pero siempre va a dar minimo una), las vueltas que da van a estar definidas *__MIENTRAS__* se cumpla la condicion indicada entre los parentesis.
 
----
 *PD: Podramos pensar que el bucle WHILE y el bucle DO-WHILE son iguales, la diferencia entre esto es que el bucle DO-WHILE simpre se vas a ejecutar minimo una vez si o si.*
 
 ---
