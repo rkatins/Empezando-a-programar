@@ -1,5 +1,5 @@
 [Bucles](./Bucles)
-[Clases [Herencia - Abstrata]](./Clases [Herencia - Abstracta])
+[Clases Herencia - Abstrata](./Clases [Herencia - Abstracta])
 [Ejemplos programas](./Ejemeplos programas)
 [Metodos](./Metodos)
 [Objetos](./Objetos)
