@@ -1,4 +1,6 @@
 # Clase Abtract (Abstracta) *No confundir con HERENCIA*
+Antes de todo, podemes resumir muy resumido que las clase abstractas son como moldes.
+
 Las clases abstractas no se pueden crear ejemplares de la clase.
 Se usan para definir subclases (es decir que extiendan de esta).
 Usamos clases abstractas cuando englobamos objetos de distintos tipos y queremos usar polimorfismo.
