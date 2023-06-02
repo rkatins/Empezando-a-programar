@@ -5,6 +5,7 @@ Para verlo dded una forma mas grafic y entenderlo, podeddmos hacer un simil con 
 Es decir que si una clase tiene X metodos y N propiedades, estas podran ser usadas por las clases que hereden/extiendadan de ella.
 
 *Siempre* que una clase quiere heredar/extender de otra clase se debe usar la palbra reservada junto con el nombre dde la cles a la que hace referencia:  ```extends "nombre_ClasePadre"```, se debe poner en la declaracion de una clase "Hija".
+
 EJ:
 
 *Clase Padre*
