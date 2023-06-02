@@ -4,7 +4,7 @@ Solo afecta a las Clases.
 Para verlo dded una forma mas grafic y entenderlo, podeddmos hacer un simil con la herencia en la vida real, lo que tiene un padre se lo pasa a su hijo, y asi sucesivamente.
 Es decir que si una clase tiene X metodos y N propiedades, estas podran ser usadas por las clases que hereden/extiendadan de ella.
 
-*Siempre* que una clase quiere heredar de otra se debe poner ```extends "nombre_ClasePadre"``` en la declaracion de una clase "Hija".
+*Siempre* que una clase quiere heredar/extender de otra clase se debe usar la palbra reservada junto con el nombre dde la cles a la que hace referencia:  ```extends "nombre_ClasePadre"```, se debe poner en la declaracion de una clase "Hija".
 + Ejemplo:
 *Clase Padre*
 ```
