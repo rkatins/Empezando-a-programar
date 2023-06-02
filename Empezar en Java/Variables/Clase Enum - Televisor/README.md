@@ -1,5 +1,5 @@
 ## Clase Enum
-No estaria bien meterlo como **VARIABLE**, pero la usamos principalmente como tal.
+No estaria bien meterlo como **VARIABLE**, pero la usamos principalmente como tal uanque la definamos como clase.
 
 Al crear una variable de la clase Enum por asi decir estamos creando un objeto con un atributo con varias posibilidades.
 ```
