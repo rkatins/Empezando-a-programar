@@ -6,4 +6,4 @@ Para esta explicacion agruparemos Herencia y Abstracta (aunque tienen su diferen
 # Clases/Interfaces
 Existen tambien las clase/interfaces, las cuales son una actualizacion/mejora de las clase Padres, permiten usarse mas veces.
 
-A diferencia (visible) de las clases que se heredan/extienden estas usan la palabra reservada ```implements``` segiudo dd3el nombre de la clase o calses.
+A diferencia (visible) de las clases que se heredan/extienden estas usan la palabra reservada ```implements``` segiudo del nombre de la clase o calses.
