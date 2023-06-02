@@ -39,8 +39,9 @@ EXTRA
 ---
 
 + [Bucles](./Bucles)
-+ [Clases \[Herencia - Abstrata\]](https://github.com/rkatins/Empezando-a-programar/tree/main/Empezar%20en%20Java/Clases%20%5BHerencia%20-%20Abstracta%5D)
++ [Interfaces-Clases \[Herencia - Abstrata\]](https://github.com/rkatins/Empezando-a-programar/tree/main/Empezar%20en%20Java/Interfaces-Clases%20%5BHerencia%20-%20Abstracta%5D)
 + [Ejemplos programas](https://github.com/rkatins/Empezando-a-programar/edit/main/Empezar%20en%20Java/README.md)
-+ [Metodos](./Metodos)
++ [Metodos](./Metodos)
+
 + [Objetos](./Objetos)
 + [Variables primitivas](./Variables)
