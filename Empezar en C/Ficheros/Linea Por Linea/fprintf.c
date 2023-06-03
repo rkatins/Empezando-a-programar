@@ -2,7 +2,7 @@
 
 /*
   - Autor:         	rkatins
-  - Correo:			katinsruben.98@gmial.com
+  - Correo:		katinsruben.98@gmial.com
   - Descripcion:
 */
 
