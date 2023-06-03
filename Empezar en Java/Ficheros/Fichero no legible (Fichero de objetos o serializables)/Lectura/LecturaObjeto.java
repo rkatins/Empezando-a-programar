@@ -8,13 +8,14 @@ import java.io.ObjectInputStream;
 public class Escritura {
     public static void main(String[] args) {
         Persona personaParaLeer;
+        FileInputStream fis = null;
         
-        FileInputStream ficheroEntrada = null;
         try{            
-            ficheroEntrada = new FileInputStream("datos.txt");
-            ObjectInputStream tuberiaEntrada = new ObjectInputStream(ficheroEntrada);
+            fis = new FileInputStream("datos.txt");
+            ObjectInputStream ois = new ObjectInputStream(fis);
             
-            personaParaLeer = (Persona)tuberiaEntrada.readObject();
+            // Se hace un casting para cambiar el tipo de lo devuelto por -> ois.readObject();
+            personaParaLeer = (Persona)ois.readObject();
             System.out.println(personaParaLeer.toString());
             
             ficheroEntrada.close();
