@@ -10,7 +10,7 @@ EJ:
 	    public void continente();
 	}
 ```
-*Clase imlementadora - Clase "Hija"*
+* Clase imlementadora - Clase "Hija"*
 ```
 	public class Mamifero implements Animal{
 	    @Override
