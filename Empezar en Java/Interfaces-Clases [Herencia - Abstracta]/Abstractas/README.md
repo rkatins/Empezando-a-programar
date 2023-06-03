@@ -50,8 +50,22 @@ Un ejemplo de esto anterior podria ser:
         System.out.println("La velocidadd de camion es: " + camion.mAcelerar());
 	```
     *Metodo constructor de las clases usadas en el ejemplo*
+    + Ejemplo en *Clase Coche*:
     ```
-    public Coche|Moto|Camion(int velocidad) {
+    public Coche(int velocidad) {
+        super(velocidad);
+    }
+    ```
+    + Ejemplo en *Clase Moto*:
+
+    ```
+        public Moto(int velocidad) {
+        super(velocidad);
+    }
+    ```
+    + Ejemplo en *Clase Camion*:
+    ```
+        public Camion(int velocidad) {
         super(velocidad);
     }
     ```
