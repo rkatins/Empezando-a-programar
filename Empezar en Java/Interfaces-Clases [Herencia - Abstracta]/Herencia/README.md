@@ -8,7 +8,7 @@ Es decir que si una clase tiene X metodos y N propiedades, estas podran ser usad
 
 EJ:
 
-*Clase Padre*
+* Clase Padre
 ```
 	public class Persona {
 	    protected String nombre;
@@ -28,7 +28,7 @@ EJ:
 	    }
 	}
 ```
-*Clase Hija*
+* Clase Hija
 ```
 
 	public class Empleado extends Persona {
