@@ -20,6 +20,6 @@ public class Principal {
         Collections.sort(municipios, new ClaseOrdenar());
         for (int i = 0; i < municipios.size(); i++) {
         	System.out.println(municipios.get(i).toString());
-		}
+	}
     }
 }
