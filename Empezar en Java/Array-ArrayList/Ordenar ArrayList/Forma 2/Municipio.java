@@ -1,5 +1,3 @@
-package ordenar;
-
 public class Municipio {
     private String nombre;
     private String provincia;
