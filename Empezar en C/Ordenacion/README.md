@@ -24,5 +24,5 @@ Basicamente podriamos resumir la ordenacion de la burbuja en usar una variable a
 
 Para llevar a cabo esta ordenacion es comun usar un array (o similar que almacene datos) para en un futuro ordenarlos, ya se con este algoritmo de ordenacion u otro.
 
-+ No **SIEMPRE** es necesario el que se use pra ordenar numeros (como en este caso), podemos declarar un array que contenga estructuras y ordenar estas en base a un numero que contenga.
++ No **SIEMPRE** es necesario el que se use para ordenar numeros (como en este caso), podemos declarar un array que contenga estructuras y ordenar estas en base a un numero que contenga.
 + Lo que **SIEMPRE** va a ocurrir es lo que se tendra en cuenta a la hora de ordenar.
