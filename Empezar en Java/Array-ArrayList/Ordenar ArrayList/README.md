@@ -1,4 +1,12 @@
 # Ordenar ArrayList
+Tenemos 2 interfaces a elgir:
++ Comparable -> Un solo criterio de ordenacion
+Siguiendo el ejemplo anterior (con su variaciones)
+Solo permitiria ordenar por Nombre, no por Nombre y Provincia a la vez.
+
++ Comparator -> Puede usar 1 o varios criterios de ordenacion a la vez, este puede ser mas versatil.
+
+## Comparator (Forma 1)
 La ordenacion hacienddo uso de la Clase/Interfaz Comparator es algo compleja y tiene varios pasos a seguir (Como practicamente todo).
 
 1. Creamos una Clase que contendra el metodo (o metodos; para ordenar dee formas diferente) para ordenar, esta clase debe implementar la Clase/Interfaz Comparator (la cual se debe definir igual que un ArrayList).
@@ -47,3 +55,37 @@ El método-funcion/parámetro devuelbe un objeto de tipo String (el cual crea) q
 PD: En ningun momento debemos indicar la posicion del ArrayList o cualquier otra cosa relacionada al ArrayList que se pasa al metodo ```mOrdenar()```, Collections.sort se encargar de todo, no hay porque preocuparse de nada de la ordenacion, el solo se encargara de todo.
 
 PD2: hasta que no se llame al metodo mOrdenar(), el ArrayList se verá tal cual ha sido rellenado.
+
+## Comparator (Forma 2)
+La Forma 1 puede ser un poco liosa de entender, y existe una segunda forma la cual puede ser algo mas sencilla de entender, en vez de crear metodos los cuales ordenaran de una formna diferente cada uno, en este caso creamos varias clases las cuales tendran su propio criterio de ordenacion cada una modificando el metodo implementado por la interfaz.
+
+```
+	public class Ordenar implements Comparator<Municipio>{
+		@Override
+		public int compare (Municipio m1, Municipio m2){
+			if (m1.getNombre().compareTo(m2.getNombre()) > 0) {
+				return -1;
+			} else if (m1.getNombre().compareTo(m2.getNombre()) == 0) {
+				return 0;
+			} else {
+				return 1;
+			}
+		}
+	}
+```
+Explicacion:
+Se está utilizando una lógica inversa para la comparación de nombres. Si el nombre de m1 es mayor que el nombre de m2, se devuelve -1, lo que indica que m1 debe estar antes que m2 en la ordenación. Si los nombres son iguales, se devuelve 0, y si el nombre de m1 es menor que el nombre de m2, se devuelve 1.
+
+---
+
+Existe una alternativa, pero basicamente hacen lo mismo pero usan una logica de ordenacion diferente.
+```
+	public class Ordenar implements Comparator<Municipio> {
+	    @Override
+	    public int compare(Municipio m1, Municipio m2) {
+	        return m1.getNombre().compareTo(m2.getNombre());
+	    }
+	}
+```
+Explicacion:
+Se realiza una comparación directa de los nombres utilizando el método compareTo() de String. Si el nombre de m1 es menor que el nombre de m2, se devuelve un valor negativo. Si son iguales, se devuelve 0, y si el nombre de m1 es mayor que el nombre de m2, se devuelve un valor positivo.
