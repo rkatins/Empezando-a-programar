@@ -1,5 +1,3 @@
-package ordenar;
-
 import java.util.Comparator;
 
 public class ClaseOrdenar implements Comparator<Municipio> {	
