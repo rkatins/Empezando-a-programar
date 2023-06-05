@@ -36,6 +36,7 @@ Explico el ultimo ejemplo para saber como se esta manejando el fichero de propie
 	        propiedades.load(ficheroPropiedades);
 
 	        System.out.println(propiedades.getProperty(localidad));
+		// Mostrara: Guadalajara
 	    } catch (FileNotFoundException e) {
 	        System.out.println("mLeerPropiedades -> No se encontro el fichero");
 	    } catch (IOException e) {
