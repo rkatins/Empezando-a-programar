@@ -41,7 +41,6 @@ Explico el ultimo ejemplo para saber como se esta manejando el fichero de propie
         } catch (IOException e) {
             System.out.println("mLeerPropiedades -> No se pudo leer el fichero");
         }
-    }
 ```
 
 PD: No es obligatorio pero se suele poner un nombre cualquiera que tenga una extension ```.properties```, esto es asi por el mero echo de identificarlo entre los ficheros de nuestro programa. En el caso que creemos/manejemos varios ficheros yo aconsejo tenerlos todos en una misma carpeta y cada uno con su nombre.
