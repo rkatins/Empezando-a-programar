@@ -22,9 +22,11 @@ Explico el ultimo ejemplo para saber como se esta manejando el fichero de propie
 
 1. Creamos una variable nueva de tipo ```Properties``` que se encargará de manejar las claves del fichero de propiedades que indiquemos, a su vez declararemos una variable de tipo InputStream que contendrá el fichero, pero esta la inicializaremos a null en un principio, ya que _SI o SI_ deberemos hacer uso de un bloque ```try-catch``` donde la llamaremos y haremos uso de esta variable. -> 2 primeras lineas de código
 
-2. Dentro del bloque ```try-catch``` indicaremos a nuestra variable de tipo ```Properties``` el fichero que usará (para lo cual le pasaremos por parametro la variable que contiene el fichero de propiedades). -> 2 prmeras lineas del bloque ```try```
+2. Dentro del bloque ```try-catch``` indicaremos a nuestra variable de tipo ```InputStream``` el fichero que usará (para lo cual le pasaremos por parametro la variable que contiene el fichero de propiedades). -> 2 prmeras lineas del bloque ```try```.
+   Entendamos esto, inicializamos nuestra variable ficheroPropiedades (de tipo InputStream) la cual usaremos como parametro para la siguiente linea, la cual hace uso de la variable propiedades (de tipo properties) que a su vez hace uso de su propio metodo load() al que le pasaremos por parametro la variable ```InputStream``` que hemos nombrado antes.
 
-3. Mostraremos el contenido de la clave (en este caso la clave localidad), la cual deberemos indicar como parametro del metodo getProperty() de la variable de tipo Properties declarada antes. -> Ultima linea del bloque ```try```
+
+3. Mostraremos el contenido de la clave (en este caso la clave localidad), la cual deberemos indicar como parametro del metodo getProperty() de la variable de tipo Properties declarada antes. -> Ultima linea del bloque ```try```.
 
 ```
 	public void mLeerPropiedades() {
