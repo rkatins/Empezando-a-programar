@@ -20,7 +20,7 @@ Para entender la estructura a la hora de escribir un fichero de propiedades, lo 
 
 Explico el ultimo ejemplo para saber como se esta manejando el fichero de propiedades.
 
-1. Creamos una variable nueva de tipo ```Properties``` que se encargará de manejar las claves del fichero de propiedades que indiquemos, a su vez declararemos una variable que contendrá el fichero, pero esta la inicializaremos a null en un principio, ya que _SI o SI_ deberemos hacer uso de un bloque ```try-catch``` donde llamaremos y haremos uso de esta variable. -> 2 primeras lineas de código
+1. Creamos una variable nueva de tipo ```Properties``` que se encargará de manejar las claves del fichero de propiedades que indiquemos, a su vez declararemos una variable de tipo InputStream que contendrá el fichero, pero esta la inicializaremos a null en un principio, ya que _SI o SI_ deberemos hacer uso de un bloque ```try-catch``` donde la llamaremos y haremos uso de esta variable. -> 2 primeras lineas de código
 
 2. Dentro del bloque ```try-catch``` indicaremos a nuestra variable de tipo ```Properties``` el fichero que usará (para lo cual le pasaremos por parametro la variable que contiene el fichero de propiedades). -> 2 prmeras lineas del bloque ```try```
 
