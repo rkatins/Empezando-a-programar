@@ -2,7 +2,7 @@
 
 ### ¿Qué es hacer un metodo/variable static?
 
-Un metodo/variable **static** es como que esta presente en la clase y solo lo puede usar la clase. Es similar a declarar metodo/variable privado, pero en este caso forma parte de la propia clase.
+Un metodo/variable ```static``` es como que esta presente en la clase y solo lo puede usar la clase. Es similar a declarar metodo/variable privado, pero en este caso forma parte de la propia clase.
 
 ``` 
 public class Coche {
