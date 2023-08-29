@@ -1,4 +1,4 @@
-# Empezando-a-programar
+# Empezando a programar
 Apuntes en diversos lenguajes de programación
 
 # **HTML**
