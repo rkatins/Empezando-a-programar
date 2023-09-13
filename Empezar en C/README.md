@@ -9,7 +9,7 @@ Programacion estructurada -> Basicamente podriamos decir que se ejecuta de arrib
 ```
 	#include <stdio.h> 		// Indica las librerias que se van a usar, la que esta es obligatoria, es la standar  
 
-	int/void nombreFuncion() 	// OPCIONAL -> Declara funciones
+	int void nombreFuncion() 	// OPCIONAL -> Declara funciones
 	int nombreVariable;		// OPCIONAL -> Declara variables globales
 
 	main(){
