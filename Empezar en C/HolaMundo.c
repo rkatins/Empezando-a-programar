@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 /*
-  - Autor:         	rkatins
+  - Autor:          rkatins
   - Correo:         katinsruben.98@gmial.com
   - Descripcion:    Hola Mundo
 */
