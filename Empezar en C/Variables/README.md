@@ -24,7 +24,7 @@ Podremos ver el valor de nuestras variables haciendo uso de la funcion *printf()
   y variables por el otro (si existen mas de una variable estas se separn por comas entre si)
 	+ int -> %i o %d
 	+ float -> %f (%.c -> Elimina los decimales en la visualizacion, %.nf (n es un numero indeterminado) mostrará tantos decimales como el numero antes de la f)
-	+ double -> numeros decimales (mas largos, parecido a un float)
+	+ double -> %d o %f numeros decimales (mas largos, parecido a un float si se quiere modificar la cantidad de decimales)
 	+ char -> WIP
 	+ char[n] -> WIP
 ```
