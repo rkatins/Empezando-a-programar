@@ -11,17 +11,18 @@ int main() {
 	float notaAlumno;	
 	
 	printf("Dame una nota del alumno \n");
-	scanf("%f", &notaAlumno);
+	scanf("%f", &notaAlumno);	// al ser una variable la que modificamos el valor (pidiendo un dato por teclado),
+					// debemos indicar la variable como cuando imprimimos texto por pantalla e indicamos una variable
 		
 	if (notaAlumno < 5) {
 		printf("El alumno esta suspenso\n");
-	}else if (notaAlumno >= 5 && notaAlumno <= 6) {
+	} else if (notaAlumno >= 5 && notaAlumno <= 6) {
 		printf("El alumno esta aprovado por los pelos\n");
-	}else if (notaAlumno > 6 && notaAlumno < 7) {
+	} else if (notaAlumno > 6 && notaAlumno < 7) {
 		printf("El alumno tiene un bien\n");
-	}else if (notaAlumno >= 7 && notaAlumno < 9) {
+	} else if (notaAlumno >= 7 && notaAlumno < 9) {
 		printf("El alumno tiene un notable\n");
-	}else if (notaAlumno >= 9 && notaAlumno <= 10) {
+	} else if (notaAlumno >= 9 && notaAlumno <= 10) {
 		printf("El alumno tiene un sobresaliente\n");
 	}
 	/*
