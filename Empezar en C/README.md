@@ -1,4 +1,4 @@
-[Variables primitivas](./Variables)
+[Variables primitivas](./Variables) - **VER**
 
 ## Programacion en C (Estructurada)
 
