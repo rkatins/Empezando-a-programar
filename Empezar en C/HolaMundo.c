@@ -2,8 +2,8 @@
 
 /*
   - Autor:         	rkatins
-  - Correo:			katinsruben.98@gmial.com
-  - Descripcion:	Hola Mundo
+  - Correo:         katinsruben.98@gmial.com
+  - Descripcion:    Hola Mundo
 */
 
 int main() {
