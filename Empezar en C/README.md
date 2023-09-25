@@ -19,3 +19,5 @@ Programacion estructurada -> Basicamente podriamos decir que se ejecuta de arrib
 	// Declaracionde las funciones que se vayan a usar, definir antes los metodo encima del main() y debajo del #include
 ```
 
+**PD:** *Todo lo que no este dentro del main() no se ejecutará*
+
