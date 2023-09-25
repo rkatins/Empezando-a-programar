@@ -3,7 +3,7 @@ Al igual que en muchos lenguajes de programación tenemos los siguientes tipos d
 
 + int -> numeros enteros
 + float -> numeros decimales
-+ double -> numeros decimales (mas largos)
++ double -> numeros decimales (mas largos, parecido a un float)
 + char -> caracter
 + char[n] -> cadena de caracteres
 
@@ -22,11 +22,11 @@ Podremos ver el valor de nuestras variables haciendo uso de la funcion *printf()
   Cada variable se escribe en su orden de aparicion dentro de los parentesis de la funcion *printf()*
   despues de escribir el mensaje tras una coma, para separar en dos partes, es decir mensaje por un lado
   y variables por el otro (si existen mas de una variable estas se separn por comas entre si)
-+ + int -> %i o %d
-+ + float -> %f (%.c -> Elimina los decimales en la visualizacion, %.nf (n es un numero indeterminado) mostrará tantos decimales como el numero antes de la f)
-+ + double -> numeros decimales (mas largos)
-+ + char -> caracter
-+ + char[n] -> cadena de caracteres
+	+ int -> %i o %d
+	+ float -> %f (%.c -> Elimina los decimales en la visualizacion, %.nf (n es un numero indeterminado) mostrará tantos decimales como el numero antes de la f)
+	+ double -> numeros decimales (mas largos, parecido a un float)
+	+ char -> WIP
+	+ char[n] -> WIP
 ```
 	int main() {
 		float peso = 65.45;
