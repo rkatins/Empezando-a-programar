@@ -14,7 +14,7 @@ Podremos ver el valor de nuestras variables haciendo uso de la funcion *printf()
 	int main() {
 		printf("Hola Mundo\n");	// Esto imprime hola mundo por pantalla
    
-    	return 0; 
+    		return 0; 
   	}
 ```
 ---
@@ -34,6 +34,6 @@ Podremos ver el valor de nuestras variables haciendo uso de la funcion *printf()
 	
 		printf("Me llamo Ruben, peso: %.2f kg, mido %.2f m", peso, altura);
    
-    	return 0; 
+    		return 0; 
   	}
 ```
