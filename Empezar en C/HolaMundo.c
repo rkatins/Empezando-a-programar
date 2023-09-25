@@ -7,7 +7,7 @@
 */
 
 int main() {
- 	printf( "Hola Mundo\n" );	// Esto imprime hola mundo en pantalla
+ 	printf( "Hola Mundo\n" );	// Esto imprime hola mundo por pantalla
  
  	return 0; 
  } 
