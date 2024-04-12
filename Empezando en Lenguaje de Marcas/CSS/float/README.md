@@ -41,4 +41,4 @@ Aunque `float: right` y `float: inline-end`, puedan parecer similares (segun est
 ![Ejemplo](./Ejemplo.png)
 En este ejemplo podemos ver que los `<section>` tienen puesta la propiedad `margin` en la que no se ve graficamente la propiedad `margin`, esto se debe a que cuando una etiqueta tiene la propiedad `float` esta se sobrepone/está por encima entoncés no se ven "afectadas".
 
-**Creditos/Fuente: ** https://learnlayout.com/percent
+**Creditos/Fuente:** https://learnlayout.com/percent
