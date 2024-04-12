@@ -66,3 +66,8 @@ Este arreglo consiste en añadir la propiedad `overflow: auto;` en el CSS del co
     </html>
 ```
 * Haciendo uso de la propiedad `overflow: hidden;` podemos ver el cambio "activando/desactivando" esta propiedad.
+
+---
+**Creditos/Fuente:**
+* https://learnlayout.com/clear
+* https://learnlayout.com/clearfix
