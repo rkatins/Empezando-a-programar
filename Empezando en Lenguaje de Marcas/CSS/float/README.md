@@ -31,10 +31,15 @@ Estos son algunos dde los ejemplos usando float.
 * `float: left;`
 * `float: right;`
 
----
-![Ejemplo](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 Aunque `float: right` y `float: inline-end`, puedan parecer similares (segun esta puesto en el codigo HTML) esto se ddebae a que muestran de forma muy similar (por no decir identica), porque al final muestran lo mismo. Al igual que `float: left` y `float: inline-start`
 
 ---
 **IMPORTANTE** -> Aunque tengamos varios elementos, y que al menos haya 1 que tenga la propiedad `float`, este con la propiedad `float` estara por asi decir un paso por de lante de los demas, el resto estan por "detras", a menos que hagamos un `<div>` "contendor" que almacenará los elementos que se pongan dentro (cave mencionar que se le debe indicar un ancho y largo para evitar que se salga del contenedor)
+
+---
+![Ejemplo](./Ejemplo.png)
+En este ejemplo podemos ver que los `<section>` tienen puesta la propiedad `margin` en la que no se ve graficamente la propiedad `margin`, esto se debe a que cuando una etiqueta tiene la propiedad `float` esta se sobrepone/está por encima entoncés no se ven "afectadas".
+
+### Creditos/Duente: 
+https://learnlayout.com/percent
