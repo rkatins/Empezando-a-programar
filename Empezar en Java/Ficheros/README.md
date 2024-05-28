@@ -6,7 +6,7 @@ Dentro de los ficheros encontramos 3 tipos (Podriamos contar un 4º tipo, pero p
 
 ---
 
-## [Fichero de propiedades](./Objetos)
+## [Fichero de propiedades](./Fichero%20de%20propiedades)
 Podramos resumier este como un tipo de fichero con una determinada estructura para ser leido, la cual sera usada para seguir determinadas configuraciones, como configuracion se puede entender como mostrar un determinado mensaje o ejecutar un determinado metodo dependiendo lo que se elija previmente.
 
 ## [Fichero no legible (Fichero de objetos o serializables)](./Objetos)
