@@ -15,3 +15,21 @@ Las marcas/etiquetas se ponen por pares, esto quiere decir que tiene una apertur
 No es obligatorio ni un regla escrita, se da el caso de que una marca/etiqueta contiene otra marca/etiqueta y asi sucesivamente cuantas sea necesarias.
 
 Ha diferencia de los lengaujes de programcion, los lengaujes de marcas siempre tienen un incio y fin (a excepcion de algunas etiquetas que solo tienen fin, o no es necesario esscribir el incio)
+
+La estructura a seguir siempre por una pagina web es la siguiente:
+```
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ...
+  ...
+  ...
+<body>
+  ...
+  ...
+  ...
+</body>
+</html>
+```
