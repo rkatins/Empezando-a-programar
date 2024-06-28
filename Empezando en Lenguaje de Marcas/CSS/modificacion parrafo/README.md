@@ -1,4 +1,4 @@
-# [font-size](./font-size)
+# [font-size](./font-size.md)
 Con esta propiedad `CSS` podemos cambiar el tamaño de la letra escrita, imagenemos por algun casual que queremos escribir la letra pequeña de un contrato por ejemplo, pues hariamos uso de esta propiedad `CSS` para variar el tamaño de la letra.
 
 No hay un tamaño predeterminado que indique el tamaño de letra de un documento `HTML`, este viene definido por los ajustes del navegador y otros ajustes establecidos por el usuario final.
