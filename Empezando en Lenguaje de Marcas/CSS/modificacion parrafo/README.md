@@ -22,7 +22,7 @@ Unidades relativas:
 * `ex`: Relativo a la altura de la letra "x" en la fuente actual.
 
 ---
-# color
+# [color](./color.md)
 Muy similar a la anterior, ya que esta modifica tambien a las letras escritas, pero en este caso modifica el color de esta.
 
 ## Valores
@@ -38,7 +38,7 @@ Se ve muy similar a RGB a la hora de mostrar los datos del color.
 PD: Todos representan el rojo, yo paersonalemte prefioro usar `RGB` o `Hexadecimal`.
 
 ---
-# font-family
+# [font-family](./font-family.md)
 Haciendo uso de esta propieda, le indicamos al parrafo escrito que la fuente/tipo de letra que debe usar es la indicada en el argumento de la propiedad.
 
 Aparte de que se indique un nombre a la fuente de letra se pueden usar los siguientes atributos de forma que "especifican" el tipo de letra a usar, como `serif`, `sans-serif`, `monospace`, `cursive`o `fantasy`, que esto seria como para reforzar que tipo de fuente quieres usar o que tipo de fuente de ltra usar dentro de la fuente de letra indicada.
@@ -59,7 +59,7 @@ PD: podemos definir tantas fuentes de letras como queramos, y asignarla a cada a
 * `src` -> Indica la ubicacion de la fuente de letra a usar.
 
 ---
-# font-style
+# [font-style](./font-style.md)
 Esta prpiedad no tiene mucho mistrio aunque se puede confundir su uso con el de `font-family`, ya que ambas modifican la letra en si, pero esta vendria a ser como un extra a la hora de escribir, dependiendo de la opcion que indiquemos a la propiedad afectará de una manera u otra al texto.
 
 PD: `italic` y `oblique` son identicas. Indicar `font-style: normal;` es un poco tonteria, ya que el valor que indica para hacer la modificacion del texto e la por defecto
@@ -70,7 +70,7 @@ PD: `italic` y `oblique` son identicas. Indicar `font-style: normal;` es un poco
 * `oblique` -> Inclinado/Cursiva
 
 ---
-# text-decoration
+# [text-decoration](./text-decoration.md)
 Este vendria a ser una modificacion de `font-style`, pero este se encarga del tipo de "rallado" (lo que podrian ser decoraciones en el texto, no confundir con la fuente de letra si añade algun caracter especial por ejemplo) en el texto, es decir si esta subrayado, tachado, ...
 
 ## Valores
@@ -80,9 +80,10 @@ Este vendria a ser una modificacion de `font-style`, pero este se encarga del ti
 * `line-through` -> Tachado
 
 ---
-# font-weight
+# [font-weight](./font-weight.md)
 Esta propiedad vendria a indicar el grosor de la letra.
 Siempre he sido muy reacio en cuanto a psicologos, pero aunque no me gusten llevo con Yolanda como un año, con los anteriores da gracias si llegaba a los 3 meses. Yolanda tiene algo que no me ha hecho irme a la primera que he podido. En general solo puedo decir que muy contento con ella y creo que porfin he encontrado alguien con quien ir al psicólogo y no dejarlo.
+
 ## Valores
 * `normal` -> (predeterminado) Grosor normal de la letra.
 * `bold` -> Grosor negrita.
@@ -92,19 +93,19 @@ Siempre he sido muy reacio en cuanto a psicologos, pero aunque no me gusten llev
 Realmente `normal` y `lighter` son muy similares por no decir identicos, lo mismo con `bold` y `bolder`.
 
 ---
-# letter-spacing
+# [letter-spacing](./letter-spacing.md)
 Ajusta el espacio entre letras. Es decir que puede cambiar el valor (indicaado en numeros + unidad de medida, los mismos que para `font-size`) para separar o juntar las letras.
 
 Indicanddo el valor `normal` se restablecerá el valor por defecto.
 
 ---
-# word-spacing
+# [word-spacing](./word-spacing.md)
 Ajusta el espacio entre palabras. Muy parecido a `letter-spacing`, solo que este indica el espacio entre palabras.
 
 Indicanddo el valor `normal` se restablecerá el valor por defecto.
 
 ---
-# line-height
+# [line-height](./line-height.md)
 Controla el interlineado (espacio entre líneas de texto). Es decir el espacio entre linea y linea de un parrafo.
 
 ## Valores
@@ -119,7 +120,7 @@ Controla el interlineado (espacio entre líneas de texto). Es decir el espacio e
     `inherit`: Hereda el valor de line-height del elemento padre.
 
 ---
-# text-align
+# [text-align](./text-align.md)
 Alinea el texto (izquierda, derecha, centro, justificado tiene que escribirse en ingles).
 
 ## Valores
@@ -129,7 +130,7 @@ Alinea el texto (izquierda, derecha, centro, justificado tiene que escribirse en
 * `justify` -> Se utiliza para alinear el texto de manera que los bordes izquierdo y derecho de cada línea (excepto la última) estén alineados con los márgenes del contenedor
 
 ---
-# text-indent
+# [text-indent](./text-indent.md)
 Indenta la primera línea de un párrafo. Es decir que marca el sangrado como si de un cuaderno se tratara.
 
 ## Valores
@@ -146,7 +147,7 @@ Puedes usar valores negativos para crear una sangría colgante, donde la primera
     EJ: text-indent: -10px;
 
 ---
-# text-transform
+# [text-transform](./text-transform.md)
 Transforma el texto a mayúsculas (uppercase), minúsculas (lowercase) o versalitas (capitalize).
 
 ## Valores
@@ -158,7 +159,7 @@ Transforma el texto a mayúsculas (uppercase), minúsculas (lowercase) o versali
 * inherit: El elemento hereda el valor de text-transform de su elemento padre.
 
 ---
-# text-shadow
+# [text-shadow](./text-shadow.md)
 Añade una sombra al texto.
 
 ## Valores
@@ -180,7 +181,7 @@ Puedes usar nombres de colores (red, blue, etc.). Valores `hexadecimales` (#RRGG
 Si se omite, el color de la sombra se toma del color del texto.
 
 ---
-# vertical-align
+# [vertical-align](./vertical-align.md)
 Alinea el texto verticalmente (superior, inferior, línea base, etc.).
 
 ## Valores
@@ -201,7 +202,7 @@ Puedes usar cualquier valor de longitud válido (px, em, %, etc.) para desplazar
 Similar a los valores de longitud, pero se calcula como un porcentaje de la altura de línea del elemento.
 
 ---
-# text-overflow
+# [text-overflow](./text-overflow.md)
 Controla cómo se muestra el texto que desborda el contenedor. Imaginemos que tenomos una etiqueta `<div>` de un ancho de 100px y que contiene una etiqueta `<p>` de unos 200px de ancho. Por defectio veriamos nuestro texto cortado en el punto que llega a los 100px, haciendo uso de `text-overflow` podemos solventarlo sustituiynedo este texto "sobrante" o que no puede ser representado por `...`.
 
 ## Valores
@@ -211,7 +212,7 @@ Controla cómo se muestra el texto que desborda el contenedor. Imaginemos que te
 PD: No confundir con `overflow`.
 
 ---
-# white-space
+# [white-space](./white-space.md)
 Controla cómo se manejan los espacios en blanco en el texto.
 
 ## Valores
@@ -245,7 +246,7 @@ Controla cómo se manejan los espacios en blanco en el texto.
     * Hereda el valor de white-space del elemento padre.
 
 ---
-# direction
+# [direction](./direction.md)
 Establece la dirección del texto (de izquierda a derecha o de derecha a izquierda) (como en árabe o hebreo).
 
 ## Valores
