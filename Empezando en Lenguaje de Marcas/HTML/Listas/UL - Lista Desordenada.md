@@ -1,5 +1,5 @@
 
-# Listas desordenadas <ul> ... </ul>
+# Listas desordenadas `<ul> ... </ul>`
 Esta forma de listar elementos se caracteriza por mostrar los elementos sin un orden específico, como en una lista de compras o características de un producto. A diferencia de las listas ordenadas, no se utilizan números, sino viñetas o símbolos para marcar cada elemento.
 
 * Esto
@@ -7,7 +7,7 @@ Esta forma de listar elementos se caracteriza por mostrar los elementos sin un o
 * Un
 * Ejemplo
 
-Cada viñeta representa un elemento de la lista, los cuales se indican con la etiqueta <li> ... </li>. El orden de los elementos no tiene relevancia en este tipo de lista. La apariencia de la viñeta puede ser modificada usando la propiedad CSS list-style-type y afecta a la etiqueta <ul>.
+Cada viñeta representa un elemento de la lista, los cuales se indican con la etiqueta `<li> ... </li>`. El orden de los elementos no tiene relevancia en este tipo de lista. La apariencia de la viñeta puede ser modificada usando la propiedad `CSS` `list-style-type` y afecta a la etiqueta `<ul>`.
 
 ## Valores
 * `disc` (predeterminado) -> Viñeta circular rellena.
