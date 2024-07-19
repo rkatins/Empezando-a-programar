@@ -1,4 +1,4 @@
-# Listas ordenadas <ol> ... </ol>
+# Listas ordenadas `<ol> ... </ol>`
 
 Esta forma de listar elementos se ve carcterizada por mostra los elementos como si de una lista ordenada por numeros se tartara, como se ve en el ejemplo de debajo.
 
@@ -7,7 +7,7 @@ Esta forma de listar elementos se ve carcterizada por mostra los elementos como 
 3. Un
 4. Ejemplo
 
-Cada número representa un elemento de la lista, los cuales son indicados con la etiqueta <li> ... </li>. Y siempre los elementos de la lista se escribiran de arriba hacia abajo. El numero puede ser modificado haciendo uso de la propiedad `CSS` `list-style-type` y afecta a la etiqueta <ol>.
+Cada número representa un elemento de la lista, los cuales son indicados con la etiqueta `<li> ... </li>`. Y siempre los elementos de la lista se escribiran de arriba hacia abajo. El numero puede ser modificado haciendo uso de la propiedad `CSS` `list-style-type` y afecta a la etiqueta `<ol>`.
 
 ## Valores
 * `decimal` (predeterminado) -> Números decimales (1, 2, 3, etc.).
