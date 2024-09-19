@@ -5,23 +5,14 @@
 * `display: block`
 Por asi decirlo es el mas basico de todas las opciones que tiene display, lo que hace esta propieda es ocupar todo el ancho (a menos que se le indique un `with`).
 
-### A partir de HTML5
-Actualmente existen "alternativas" a esto para no tener que usar siempre una etiqueta `<div>` para esto, son las siguientes: `<header>`, `<footer>` y <`section>`.
-`<header>` -> Se usa para los encabezados/titulos de la pagina HTML5.
-`<footer>` -> Igual que el anterior pero para los pie de pagina o parte inferior de la pagina HTML5.
-`<section>` -> Igual que con lass antereiores pero se suele usar para indicar el cuerpo de la pagina HTML5.
-
-Si dividimos en tres la pagina usando las etiquetas mencionadas anteriormente, lo poemos simplificar en TITULO > CUERPO > FIN.
-
----
 * `display: inline`
 Suele acompañar a etiquetas las cuales afectan a una sola palabra como podria ser la etiqueta `<span>`.
 Al usar la propiedàd `display: inline` lo podemos ver como que la etiqueta a la que afecta no va a crear un salto de linea por asi decirlo, esta va a forzar el que la siguiente etiqueta empiece como si no hubiera nada a asu izquierda ocupando espacio.
 
-~ ~ ~
+
 El siguiente ejemplo que se va mostrar es una mezcla de `inline` y `block` (-> `ìnline-block`), a su vez el siguiente ejemplo funcionara de forma muy similar tanto si se indica `display: inline-block;` o `display: inline;`. Para que lo entenmdaos rapidamente `display: inline-block;` es una evolucion de `display: inline;`
 
-Un ejemplo de esto podria ser los menu de seleccion que aparecen en horizontal en la parte superior de muchas paginas. Para que se entienda mejor en este caso (y en la mayoria de casos que vamos hacer/encuntrar) se usa una etiqueta `<li>` (por defecto esta eiqueta se coloca por debajo de la anterior haciendo var como si de una lista se tartara).
+Un ejemplo de esto podria ser los menu de seleccion que aparecen en horizontal en la parte superior de muchas paginas. Para que se entienda mejor en este caso (y en la mayoria de casos que vamos hacer) se usa una etiqueta `<li>` (por defecto esta eiqueta se coloca por debajo de la anterior haciendo var como si de una lista se tartara).
 
 ```
 	<!DOCTYPE html>
@@ -49,7 +40,7 @@ Un ejemplo de esto podria ser los menu de seleccion que aparecen en horizontal e
 	</body>
 	</html>
 ```
-En este ejemplo modificaremos las etiquetas `<li>` dentro de la etiqueta con id inline, como vemos el CSS de esta tiene la propiedad `display: inline-block` en vez de `display: inline`, para el resultado que buscamos la diferencia es minima, al usar `display: inline-block` nos permite el poder modificar mas parametros en cuanto ancho, altura, márgenes y rellenos.
+En este ejemplo modificaremos las etiquetas `<li>` dentro de la etiqueta con `id="inline"`, como vemos el CSS de esta tiene la propiedad `display: inline-block` en vez de `display: inline`, para el resultado que buscamos la diferencia es minima, al usar `display: inline-block` nos permite el poder modificar mas parametros en cuanto ancho, altura, márgenes y rellenos.
 El fin es el mismo y la iferencia minima, yo recomendaria usar `display: inline-block` siempre para evitar este tipo de "problemas" de ajuste de ancho, altura, márgenes y rellenos.
 
 ---
