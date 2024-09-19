@@ -2,7 +2,7 @@
 `display` es la propiedad más importante de CSS para controlar el **comportamiento** de una etiqueta o un conjunto de etiquetas.
 
 ---
-* `display: bolock`
+* `display: block`
 Por asi decirlo es el mas basico de todas las opciones que tiene display, lo que hace esta propieda es ocupar todo el ancho (a menos que se le indique un `with`).
 
 ### A partir de HTML5
