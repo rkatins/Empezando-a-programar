@@ -8,16 +8,16 @@
 * `display: grid`: Combina Flexbox con Grid para crear diseños más complejos que requieran tanto un flujo unidimensional como bidimensional.
 * `display: inline-flex`: Convierte un elemento y sus hijos en un contenedor flexible de línea única. Es útil para crear menús horizontales o grupos de elementos alineados en línea.
 
-### Otros valores menos comunes:
-* `table`: El elemento se comporta como una tabla HTML.
-* `table-row`: El elemento se comporta como una fila de una tabla.
-* `table-cell`: El elemento se comporta como una celda de una tabla.
-* `table-caption`: El elemento se comporta como un título de una tabla.
-* `table-header-group`: El elemento se comporta como un grupo de encabezados de una tabla.
-* `table-footer-group`: El elemento se comporta como un grupo de pies de página de una tabla.
-* `table-column-group`: El elemento se comporta como un grupo de columnas de una tabla.
-* `table-column`: El elemento se comporta como una columna de una tabla.
-* `table-row-group`: El elemento se comporta como un grupo de filas de una tabla.
+	### Otros valores menos comunes:
+	* `table`: El elemento se comporta como una tabla HTML.
+	* `table-row`: El elemento se comporta como una fila de una tabla.
+	* `table-cell`: El elemento se comporta como una celda de una tabla.
+	* `table-caption`: El elemento se comporta como un título de una tabla.
+	* `table-header-group`: El elemento se comporta como un grupo de encabezados de una tabla.
+	* `table-footer-group`: El elemento se comporta como un grupo de pies de página de una tabla.
+	* `table-column-group`: El elemento se comporta como un grupo de columnas de una tabla.
+	* `table-column`: El elemento se comporta como una columna de una tabla.
+	* `table-row-group`: El elemento se comporta como un grupo de filas de una tabla.
 
 ## Cuándo usar qué:
 * `display: block`: Es ideal cuando necesitas que un elemento se comporte como un bloque independiente, ocupando todo el ancho disponible y generando saltos de línea.
